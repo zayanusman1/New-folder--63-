@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>Project 1: Sum of Numbers</h2>
+        <p id="demo"></p>
+        <script>
+            function sumall() {
+                var sum=0;
+                for(i=0; i< arguments.length; i++){
+                    sum += arguments[i];
+                }
+                return sum;
+            }
+        document.getElementById("demo").innerHTML = sumall(1, 234, 567, 918 ,194);
+        var value = Math.sin(45);
+        document.write("Sin 45 is : " + value + "<br>");
+        value = Math.cos(45);
+        document.write("Cos 45 is : " + value + "<br>");
+        value = Math.tan(45);
+        document.write("Tan 45 is : " + value + "<br>");
+        </script>
+    </body>
+</html>
